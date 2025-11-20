@@ -14,7 +14,7 @@
     list-style-type: circle;
     font-size: 18px;
     text-underline-offset: 4px;
-    line-height: 13px;
+    line-height: 21px;
 }
 
 .header_links-list-item_no-bullit {
@@ -22,7 +22,7 @@
 }
 
 .header_logo {
-    width: 130px;
+    width: 145px;
 
 }
 
@@ -31,7 +31,7 @@
    justify-self: end;
    font-size: 18px;
    line-height: 24px;
-   max-width: 234px;
+   max-width: 240px;
    font-style: normal;
    text-underline-offset: 4px; 
 }
@@ -107,6 +107,7 @@
     justify-content: space-between;
     padding: 0px 50px 50px;
     font-size: 22px;
+    
 }
 
 .cover_description-text {
@@ -133,7 +134,7 @@
 }
 
 .lots_heading {
-    margin: 0px 900px 24px 64px;
+    margin: 0px 900px 27px 64px;
     font-weight: 700;
     font-style: Bold;
     font-size: 40px;
@@ -234,19 +235,19 @@
   background-color: black;
   width: 240px;
   height: 240px;
-  margin: 35px 0px 0px 45px;
+  margin: 35px 0px 0px 47px;
   border-radius: 50%;
   justify-content: center;
 }
 
 .about_logo-image {
-  margin: 63px 46px;
+  margin: 64px 45.52px 62px 46.48px;
   width: 148px;
   height: 114px;
 }
 
 .about_column {
-  margin-top: 100px;
+  margin-top: 133px;
   display: grid;
   grid-row-gap: 25px;
   grid-column-start: 2;
