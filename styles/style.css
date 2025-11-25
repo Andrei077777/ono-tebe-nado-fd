@@ -27,7 +27,6 @@
 .header_logo {
     width: 148px;
     height: 105px;
-
 }
 
 .address {
@@ -44,17 +43,16 @@
    max-width: 240px;
 }
 
-.header_address {
+.address_item {
     list-style-type: none;
 }
 
-.header_address_item {
+.address_item_item {
     padding-right: 10px;
 }
 
 /* ОСНОВНОЙ БЛОК */
 /*блок cover*/
-
 
 .cover {
     margin: 0 0 180px 0;
@@ -79,7 +77,6 @@
 
 .cover_title {
     margin: 165px 50px 106px ;
-    height: 385px;
     font-size: 100px;
     font-weight: 700;
     text-transform: uppercase;
@@ -119,7 +116,6 @@
     justify-content: space-between;
     padding: 0px 50px 50px;
     font-size: 22px;
-    
 }
 
 .cover_description-text {
@@ -132,11 +128,10 @@
 .bet-button {
     color: white;
     background-color: rgb(255, 255, 255, 0);
-    border-color:white;
     text-transform: uppercase;
     padding: 12px 30px;
     width: 256px;
-    border: 1px;
+    border: 1px solid #fff;
     height: 51px;
 }
 
@@ -165,7 +160,6 @@
     justify-content: space-between;
     position: static;
     row-gap: 25px;
-    
 }
 
 .lots_card-list-item {
@@ -190,21 +184,16 @@
     background-position: center;
 }
 
-
  .card_type_film {
-    background-image: url(../images/card-lot-01.jpg);
-
-            
+    background-image: url(../images/card-lot-01.jpg);        
 }
 
 .card_type_book {
     background-image: url(../images/card-lot-02.jpg);
-
 }
 
 .card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
-
 }
 
 .card_title {
@@ -238,7 +227,6 @@
 /*блок about*/
 
 .about {
-  min-height: 595px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 25px;
